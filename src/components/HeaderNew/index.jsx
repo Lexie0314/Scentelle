@@ -9,22 +9,11 @@ import SetColorMode from "../SetColorMode"
 import UserInfo from "../UserInfo"
 export default function Header() {
     const [isOnTouch, setIsOnTouch] = useState(false);
-    const [isTransparent, setIsTransparent] = useState(true); // 初始化為透明
-
-    useEffect(() => {
-      window.addEventListener('scroll', handleScroll);
-      return () => {
-        window.removeEventListener('scroll', handleScroll);
-      };
-    }, []);
-  
-    const handleScroll = () => {
-      const scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
-      setIsTransparent(scrollTop >= 550); // 滾動到 500px 時設置為非透明
-    };
+    
+      
     return (
         <div >
-            <div className={isTransparent ? styles.headercolor : styles.header}>
+            <div className={styles.header}>
             {/* <div className="container"> */}
              <NavLink to="/">
                 <img className={styles.logo} src="/images/logo.png" alt="logo" />
