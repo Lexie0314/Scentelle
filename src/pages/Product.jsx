@@ -45,7 +45,7 @@ function Product() {
         <ProductDetail product={product} isLoading={false} className="layoutContent" />
       ) : (
         <div style={{ padding: "4rem", textAlign: "center" }}>
-          <h2>找不到這個商品 🫠</h2>
+          <h2>找不到這個商品 </h2>
         </div>
       )}
 
