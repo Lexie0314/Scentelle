@@ -1,0 +1,172 @@
+.content {
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .imgDispalyInDesktop {
+    width: 100%;
+    
+    border-top: 30px solid #7f8b9a;
+  }
+  
+  .imgDispalyInMobile {
+    width: 100%;
+  }
+  
+  .description {
+    display: flex;
+    text-align:left;
+    opacity: 1;
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
+    font-family: SweiGothicCJKtc-Regular;
+    font-size:larger;
+    line-height:2.5rem;
+    width: 75%;
+  }
+  
+  .List{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .RowCol{
+    margin: 0;
+    align-content:center;
+    width: 100%;
+  }
+  
+  .div {
+    width: 300px;
+    height: 300px;
+    /* background: #000; */
+    margin: auto;
+    padding: auto;
+    margin-top: 100px;
+  }
+  
+  .box {
+    color: #fff;
+    line-height: 300px;
+  }
+  
+  .title {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin-top: 120px;
+    font-weight: bold;
+    letter-spacing: 7px;
+    font-family: SweiGothicCJKtc-Regular;
+    margin-left: 1.5rem;
+  }
+  
+  .text{
+    /* color: #000; */
+    font-weight: bold;
+    margin: 0;
+    
+  }
+  
+  .btn{
+    background-color: #acbacc;
+    color: #7f8b9a;
+    font-weight: bold;
+  }
+  
+  .boxstyle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .NewsTextBox{
+    display: flex;
+    flex-direction: row;
+    margin-top: 2rem;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .ClNewsTextBox{
+    display: flex;
+    flex-direction: row;
+    margin-top: 2rem;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  
+  .contentStyle {
+    height: 160px;
+    line-height: 160px;
+    text-align: center;
+  }
+  
+  .Carousel {
+    width: 100%;
+    height: auto;
+  }
+  
+  .news {
+    width: 70%;
+  }
+  
+  .ns {
+    width: 20%;
+    height: 20%;
+    margin-top: 13rem;
+  }
+  
+  .newsbox {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
+  .cl {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-right: 0;
+    margin-left: 0;
+    padding-bottom: 2.5rem;
+  
+  }
+  
+  
+  
+  @media (max-width: 768px) { 
+    
+  
+  }
+  
+  @media (max-width: 576px) {
+    .ns {
+      width: 40%;
+      height: 40%;
+      margin-top: 10rem;
+    }
+    .description {
+      font-size:medium;
+      line-height:2.5rem;
+      width: 75%;
+    }
+  } 
+  @media (max-width: 356px) {
+    .ns {
+      width: 40%;
+      height: 40%;
+      margin-top: 9rem;
+      
+    }
+    .description {
+      font-size:medium;
+      line-height:2rem;
+      width: 75%;
+      margin-right: -1rem;
+    }
+  } 

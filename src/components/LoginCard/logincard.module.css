@@ -1,0 +1,204 @@
+.row {
+  margin-top: 1rem;
+}
+
+.layout {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Playfair Display;
+  flex-direction: column;
+}
+
+.textlayout {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+  font-family: Playfair Display;
+  font-size: 0.8rem;
+}
+
+.text {
+  font-family: Playfair Display;
+  font-weight: bold;
+  font-size: 0.8rem;
+  color: #62778d;
+}
+
+.text:hover {
+
+  color: #62778d;
+}
+
+.Checktext {
+  font-family: Playfair Display;
+  font-size: 0.8rem !important;
+}
+
+.loginForm {
+  padding: 1rem;
+  margin-right: auto;
+  max-width: 20rem;
+  
+
+}
+
+.email {
+  margin-bottom: 1.5rem;
+}
+
+
+
+.logImg {
+  
+  height: 100%;
+  margin-right: 5rem;
+}
+.logo{
+  width: 15%;
+  display: none;
+}
+
+.loginForm__forgot {
+  float: right;
+  font-family: Playfair Display;
+  font-size: 0.8rem;
+  margin-top: 0.25rem;
+  color: #62778d;
+}
+
+.loginForm__forgot:hover {
+
+  color: #62778d;
+}
+
+
+
+.loginForm__button {
+  width: 100%;
+  /* background: #F9CBB7; */
+  font-family: Playfair Display;
+  font-size: 0.8rem;
+}
+
+.loginForm__successWrap {
+  margin-top: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0.7rem;
+  width: 80%;
+  border: solid 1px #62778d;
+  border-radius: 4px;
+}
+
+.loginForm__successTitle {
+  color: #62778d;
+  text-align: center;
+}
+
+.loginForm__errorWrap {
+  margin-top: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0.7rem;
+  width: 80%;
+  border: solid 1px #8ca8bd;
+  border-radius: 4px;
+}
+
+.loginForm__errorTitle {
+  color: #8ca8bd;
+}
+
+.loginForm__errorMessage {
+  padding-top: 0;
+  margin-top: 0;
+  font-size: 0.5rem;
+}
+@media (max-width: 2560px) {
+
+  .logImg {
+    width:60%;
+    margin-right: 25rem;
+  }
+} 
+@media (max-width:1960px) {
+
+  .logImg {
+    width: 60%;
+    margin-right: 15rem;
+  }
+
+} 
+@media (max-width:1920px) {
+
+  .logImg {
+    width: 70%;
+    margin-right: 10rem;
+  }
+
+} 
+@media (max-width: 1680px) {
+
+  .logImg {
+    width: 76%;
+    margin-right: 4.5rem;
+  }
+
+} 
+
+@media (max-width: 1440px) {
+
+  .logImg {
+    width: 75%;
+    margin-right: 3rem;
+  }
+
+} 
+@media (max-width: 1280px) {
+
+  .logImg {
+    width: 55%;
+    margin-right: 10rem;
+  }
+
+} 
+@media (max-width: 1150px) {
+
+  .logImg {
+    width: 60%;
+    margin-right: 5rem;
+  }
+
+}
+
+@media (max-width: 1024px) {
+
+  .logImg {
+    width: 65%;
+    margin-right: 3rem;
+  }
+
+} 
+
+
+@media (max-width: 960px) {
+.logo{
+  display: block;
+  margin-top: 5rem;
+}
+.loginForm {
+
+  margin-left: auto;
+}
+  .logImg {
+    display: none;
+
+  }
+
+  .loginForm {
+    margin-top: 0.3rem;
+    margin-bottom: 2rem;
+  }
+} 

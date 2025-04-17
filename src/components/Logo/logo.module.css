@@ -1,0 +1,35 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    margin-top: 50px;
+}
+
+.logo_img {
+    width: 160px;         
+    height: 100px;        
+    border-radius: 12px;  
+    border: 2px solid #77879f;
+
+    margin-left: 1em;
+    margin-right: 1em;
+
+    transition: transform 0.3s ease-in-out;
+}
+
+.logo_img:hover {
+    transform: scale(1.1);
+}
+
+.logo_img:active {
+    transform: scale(0.9);
+}
+
+.logobox {
+    width: 100%;
+    margin-top: 10.5rem;
+    margin-bottom: 2rem;
+}

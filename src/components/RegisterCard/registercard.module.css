@@ -1,0 +1,86 @@
+.registerForm {
+  padding: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 30rem;
+  margin-top: 10rem;
+  font-family: Playfair Display;
+}
+
+.titletext {
+  text-align: center;
+  font-family: Playfair Display;
+  margin-bottom: 1.5rem;
+}
+
+.text {
+  text-align: center;
+  font-family: Playfair Display;
+  margin-top: 1rem;
+
+}
+
+.login_text {
+  font-family: Playfair Display;
+  font-weight: bold;
+  font-size: 0.8rem;
+  color: #768ca2;
+}
+.login_text:hover {
+
+  color: #a3b9cb;
+}
+.check_text {
+  font-family: Playfair Display!important;
+  font-size: 0.8rem !important;
+}
+
+.loginForm__forgot {
+  float: right;
+}
+
+.loginForm__forgot {
+  float: left;
+}
+
+.loginForm__button {
+  width: 100%;
+  background: #a3b9cb;
+  font-family: Playfair Display;
+  font-size: 0.8rem;
+}
+
+.loginForm__successWrap {
+  margin-top: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0.7rem;
+  width: 80%;
+  border: solid 1px #768ca2;
+  border-radius: 4px;
+}
+
+.loginForm__successTitle {
+  color: #768ca2;
+  text-align: center;
+}
+
+.loginForm__errorWrap {
+  margin-top: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0.7rem;
+  width: 80%;
+  border: solid 1px #a3b9cb;
+  border-radius: 4px;
+}
+
+.loginForm__errorTitle {
+  color: a3b9cb;
+}
+
+.loginForm__errorMessage {
+  padding-top: 0;
+  margin-top: 0;
+  font-size: 0.5rem;
+}

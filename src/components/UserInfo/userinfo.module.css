@@ -1,0 +1,35 @@
+ 
+  .userInfo {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .userInfoText {
+    font-size: 0.5rem;
+    opacity: 0.6;
+    margin-top: -0.2rem;
+    color: #a7b2c0;
+    font-family: Playfair Display;
+    font-weight: bold;
+    font-size: 0.1rem;
+  }
+  
+  .userInfoOutlined {
+    font-size: 1rem;
+    padding-left: 0.4rem;
+  }
+  
+  @media (min-width: 768px) {
+    .userInfoText {
+      font-size: 0.7rem;
+      margin-top: 0.3rem;
+    }
+  
+    .userInfoOutlined {
+      font-size: 1.5rem;
+      padding-left: 0.2rem;
+    }
+  }

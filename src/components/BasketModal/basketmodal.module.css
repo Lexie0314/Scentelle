@@ -1,0 +1,68 @@
+
+.btn {
+  width: 100%;
+  font-size: 1.1rem;
+  font-weight: lighter;
+  padding: 0.7rem;
+  height: auto;
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #7f8b9a !important;
+}
+.btn:hover {
+  background: #acbacc !important;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+  border-bottom: 1px #7a889f solid;
+}
+
+.image {
+  max-width: 4rem;
+  max-height: 4rem;
+  flex: 1 1;
+}
+
+.content {
+  margin-left: 2rem;
+  flex: 8 1;
+}
+
+.price {
+  font-family: Playfair Display;
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: right;
+}
+
+.delete {
+  font-size: 1.2rem;
+  opacity: 0.6;
+  text-align: right;
+  cursor: pointer;
+}
+
+.wrap {
+  display: flex;
+  justify-content: space-between;
+}
+
+.totalPrice {
+  font-family: Playfair Display;
+  font-weight: bold;
+  text-align: right;
+}
+
+.text{
+  font-family: Playfair Display;
+  margin-left: 12px;
+  color: #FFFCFB;
+  font-weight: bold;
+}

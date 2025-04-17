@@ -1,0 +1,28 @@
+.btn{
+   border: none !important;
+   background-color: #7f8b9a!important;
+   color: #FFFCFB !important;
+   height: auto !important;
+   font-Size: 1.2rem !important;
+   padding: 0.5rem 2rem !important;
+   width: 48%!important;
+   text-align: center!important;
+   letter-spacing:0.1rem;
+   opacity:0.8!important;
+   display: flex!important;
+   align-items: center!important;
+   justify-content: center!important;
+}
+.btn:hover{
+   opacity: 1!important
+}
+@media (max-width: 425px) {
+  .btn {
+        font-size: 1rem!important;
+        width: 50% !important;
+  }}
+@media (max-width: 320px) {
+  .btn {
+         font-size: 0.8rem!important;
+         width: 54% !important;
+  }} 

@@ -1,0 +1,70 @@
+.container {
+    width: 100%;
+    display: "flex";
+    align-content: "center";
+    justify-content: "center";
+}
+
+.logo {
+
+    margin-top: "150px";
+
+}
+
+.logo_img {
+    border-radius: "50%";
+    border: "2px solid #4D6447";
+    /* border-color: #000;
+    border-width: 2px */
+    width: 4.5rem;
+    height: 4.5rem;
+    margin-left: 1em;
+    margin-right: 1em;
+    -webkit-transition: transform;
+    transition: transform;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-in-out;
+    transition-timing-function: ease-in-out;
+
+}
+
+.logo_img:hover {
+    transform: scale(1.1);
+}
+
+.logo_img:active {
+    transform: scale(0.9);
+}
+
+.logobox {
+    width: 100%;
+}
+
+.Selectstyle {
+    width: 25%;
+    margin-right: 50px;
+}
+
+@media (max-width: 768px) {
+
+    .logobox {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Selectstyle {
+        margin-right: 0;
+        margin-left: 12px;
+    }
+
+}
+@media (max-width: 576px) {
+
+    .Selectstyle {
+        width: 50%;
+        justify-content: center;
+    }
+
+}
